@@ -1,0 +1,85 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+/apps/**/src/assets/theme
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+
+# SDA CUSTOM IGNORES
+# IntelliJ files
+.idea
+*.template
+!tools/**/*.template
+*.iml
+
+# VSCode files
+.vscode
+typings
+
+# Eclipse files
+.project
+
+# Xcode files
+xcuserdata
+
+# macOS files
+.DS_Store
+Thumbs.db
+
+# Autosaved backup files
+*~
+
+# node generated files
+node_modules
+npm-debug.log
+apps/**/package-lock.json
+libs/**/package-lock.json
+tools/**/package-lock.json
+
+
+# fastlane generated files
+**/fastlane/report.xml
+
+# sonar scanner
+/.scannerwork
+
+# TypeScript generated files
+*.js
+*.js.map
+*.d.ts
